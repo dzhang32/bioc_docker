@@ -21,8 +21,8 @@ BiocManager::install(c(
   "GenomicState",
   "megadepth",
   "recount",
-  "recount3",
-), dependencies = TRUE, update = FALSE)
+  "recount3"
+), dependencies = TRUE)
 
 # cran packages
 remotes::install_cran(c(
