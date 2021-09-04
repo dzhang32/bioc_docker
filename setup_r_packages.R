@@ -35,7 +35,7 @@ remotes::install_cran(c(
   "xaringanthemer"
 ), dependencies = TRUE)
 
-## GitHub packages
+# github packages
 remotes::install_github(c(
   "dzhang32/dasper",
   "dzhang32/Rmdplate",
