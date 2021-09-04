@@ -11,4 +11,5 @@ RUN Rscript /home/rstudio/bioc_docker/setup_r_packages.R
 USER rstudio
 
 # setup R and git configuration files
-RUN Rscript -e "rutils::setup_r_git()"
+RUN mkdir -p /home/rstudio/.config/rstudio/ \
+    && Rscript -e "rutils::setup_r_git()"
