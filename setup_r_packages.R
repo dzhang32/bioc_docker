@@ -7,6 +7,9 @@ install.packages("remotes")
 # BiocManager
 remotes::install_cran("BiocManager")
 
+# update BiocManager
+BiocManager::install(update = TRUE)
+
 # devtools/usethis
 remotes::install_cran(c(
   "devtools",
