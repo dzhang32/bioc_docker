@@ -1,4 +1,4 @@
-FROM bioconductor/bioconductor_docker:RELEASE_3_13
+FROM bioconductor/bioconductor_docker:devel
 
 LABEL authors="dyzhang32@gmail.com" \
       maintainer="dyzhang32@gmail.com"
